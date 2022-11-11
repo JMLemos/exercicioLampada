@@ -1,7 +1,7 @@
 
 const on = document.getElementById ('on');
 const off = document.getElementById ('off');
-const lamp = document.getElementById ('lampdesl')
+const lamp = document.getElementById ('lampdesl');
 
 function lampLigada ()
 {
@@ -10,8 +10,7 @@ function lampLigada ()
 
 function lampDesligada ()
 {
-    lamp.src = "./img/lampada-desligada.png";
-    
+    lamp.src = "./img/lampada-desligada.png";  
 }
 
 on.addEventListener("click", lampLigada);
